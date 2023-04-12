@@ -1,0 +1,33 @@
+/*
+ *  ir_convert.def
+ *      Has the conversion table
+ */
+
+typedef struct
+{
+    unsigned long code;
+    int key;
+} irconv_t;
+
+const irconv_t irconv_table[] =
+{
+    { 0xFFA25D, '1' },
+    { 0xFF629D, '2' },
+    { 0xFFE21D, '3' },
+    { 0xFF22DD, '4' },
+    { 0xFF02FD, '5' },
+    { 0xFFC23D, '6' },
+    { 0xFFE01F, '7' },
+    { 0xFFA857, '8' },
+    { 0xFF906F, '9' },
+    { 0xFF9867, '0' },
+    { 0xFF18E7, 'A' },
+    { 0xFF5AA5, 'B' },
+    { 0xFF4AB5, 'C' },
+    { 0xFF10EF, 'D' },
+    { 0xFF6897, 'E' },
+    { 0xFFB04F, 'F' },
+    { 0xFF38C7,'\n' },
+    { 0xFFFFFFFF, DEL },
+    { 0, NUL }
+};
