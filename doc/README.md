@@ -41,7 +41,7 @@
 
 ### Photos
 
- ![IR remote With ESP32](ir-circuit.jpg)  
+![IR remote With ESP32](ir-circuit.jpg)  
     
 
 ###  Links
